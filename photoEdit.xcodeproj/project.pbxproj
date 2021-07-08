@@ -13,6 +13,7 @@
 		307108882695979A00340168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307108862695979A00340168 /* Main.storyboard */; };
 		3071088A2695979B00340168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307108892695979B00340168 /* Assets.xcassets */; };
 		3071088D2695979B00340168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3071088B2695979B00340168 /* LaunchScreen.storyboard */; };
+		3071089526959B8E00340168 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071089426959B8E00340168 /* ViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		307108892695979B00340168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3071088C2695979B00340168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3071088E2695979B00340168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3071089426959B8E00340168 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				307108802695979A00340168 /* AppDelegate.swift */,
 				307108822695979A00340168 /* SceneDelegate.swift */,
 				307108842695979A00340168 /* ViewController.swift */,
+				3071089426959B8E00340168 /* ViewController+Extension.swift */,
 				307108862695979A00340168 /* Main.storyboard */,
 				307108892695979B00340168 /* Assets.xcassets */,
 				3071088B2695979B00340168 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3071089526959B8E00340168 /* ViewController+Extension.swift in Sources */,
 				307108852695979A00340168 /* ViewController.swift in Sources */,
 				307108812695979A00340168 /* AppDelegate.swift in Sources */,
 				307108832695979A00340168 /* SceneDelegate.swift in Sources */,
