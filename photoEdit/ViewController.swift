@@ -122,6 +122,9 @@ class ViewController: UIViewController {
     @IBAction func addText(_ sender: UITextField) {
         textLabel.text = sender.text
     }
+    @IBAction func dismissKeyboard(_ sender: Any) {
+        view.endEditing(true)
+    }
     @IBAction func savePhoto(_ sender: UIButton) {
         let renderer = UIGraphicsImageRenderer(size: containerView.bounds.size)
         let image = renderer.image(actions: {

@@ -149,6 +149,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="addText:" destination="BYZ-38-t0r" eventType="editingChanged" id="O2d-0W-6cN"/>
+                                    <action selector="dismissKeyboard:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="b3P-G3-faM"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photo Editor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPL-mA-GPI">
