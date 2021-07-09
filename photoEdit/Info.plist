@@ -25,9 +25,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Please access Photo Editor to use your camera</string>
+	<string>Please allow Photo Editor to use your camera.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Please access Photo Editor to save the photo into your album</string>
+	<string>Please allow Photo Editor to save the photo into your album.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
